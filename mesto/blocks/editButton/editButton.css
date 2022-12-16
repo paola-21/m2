@@ -1,17 +1,24 @@
 .editButton {
-  width: 10px;
-  height: 10px;
+  background-size: 10px 10px;
+  background-position: center;
+  width: 24px;
+  height: 24px;
   padding: 7px;
   border: 1px solid #FFFFFF;
   margin-top: 8px;
+  background-image: url(../../images/editButton.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 @media (max-width: 1279px) {
   .editButton {
-    width: 7.5px;
-    height: 7.5px;
+    background-size: 7.5px 7.5px;
+    width: 18px;
+    height: 18px;
     padding: 5.25px;
-    margin-top: 0;
+    margin-top: 2px;
   }
 }
 
